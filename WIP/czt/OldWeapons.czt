@@ -1,0 +1,199 @@
+﻿[Public]
+; EN: Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Old Weapons,Replace the newer Unreal weapon sounds with Unreal version 200 ones.")
+Object=(Name=OldWeapons.OldMutator,Class=Class,MetaClass=Engine.Mutator,Description="Staré Zbraně,Vyměňte novější zvuky zbraní Unreal za zvuky Unreal verze 200.")
+Object=(Name=OldWeapons.OldDispersionPistol,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldASMD,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldEightball,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldFlakCannon,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldMinigun,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldRazorjack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldGESBioRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldStinger,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldAutomag,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=OldWeapons.OldRifle,Class=Class,MetaClass=Engine.Weapon)
+
+[OldDispersionPistol]
+; EN: DeathMessage="%o was killed by %k's %w. What a loser!"
+DeathMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
+; EN: PickupMessage="You got the Dispersion Pistol"
+PickupMessage="Sebral jsi Energetickou Pistoli"
+; EN: ItemName="Dispersion Pistol"
+ItemName="Energeticka Pistole"
+FemDeathMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
+FemKillMessage="%o byl zabit %kovou energetickou pistoli. To je ale padavka!"
+
+[OldASMD]
+; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
+DeathMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
+; EN: PickupMessage="You got the ASMD"
+PickupMessage="Sebral jsi ASMD"
+; EN: ItemName="ASMD"
+ItemName="ASMD"
+FemDeathMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
+FemKillMessage="%k zpusobil %oovi smrtelne zraneni svym %w."
+
+[OldEightball]
+; EN: DeathMessage="%o was smacked down multiple times by %k's %w."
+DeathMessage="%o byl roztrhan na kusy %kovym %wem."
+; EN: PickupMessage="You got the Eightball"
+PickupMessage="Sebral jsi Sestihlavnovy Raketomet"
+; EN: ItemName="Eightball"
+ItemName="Sestihlavnovy Raketomet"
+FemDeathMessage="%o byl roztrhan na kusy %kovym %wem."
+FemKillMessage="%o byl roztrhan na kusy %kovym %wem."
+
+[OldRifle]
+; EN: DeathMessage="%k put a bullet through %o's head."
+DeathMessage="%k prohnal %oovi hlavou kulku."
+; EN: PickupMessage="You got the Rifle"
+PickupMessage="Sebral jsi Ostrelovacku"
+; EN: ItemName="Sniper Rifle"
+ItemName="Ostrelovacka"
+FemDeathMessage="%k prohnal %oovi hlavou kulku."
+FemKillMessage="%k prohnal %oovi hlavou kulku."
+
+[OldFlakCannon]
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage="%o byl roztrhan na kousky od %kova %wu."
+; EN: PickupMessage="You got the Flak Cannon"
+PickupMessage="Sebral jsi Flak Kanon"
+; EN: ItemName="Flak Cannon"
+ItemName="Flak Kanon"
+FemDeathMessage="%o byl roztrhan na kousky od %kova %wu."
+FemKillMessage="%o byl roztrhan na kousky od %kova %wu."
+
+[OldAutoMag]
+; EN: DeathMessage="%o got gatted by %k's %w."
+DeathMessage="%o to koupil z %kovy %w."
+; EN: PickupMessage="You got the Automag"
+PickupMessage="Sebral jsi Poloautomatickou Pistoli"
+; EN: ItemName="Automag"
+ItemName="Poloautomaticka Pistole"
+FemDeathMessage="%o to koupil z %kovy %w."
+FemKillMessage="%o to koupil z %kovy %w."
+
+[OldMinigun]
+; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
+DeathMessage="%kuv %w rozstrilel %oa na maly kousky masa."
+; EN: PickupMessage="You got the Minigun"
+PickupMessage="Sebral jsi Rotacak"
+; EN: ItemName="Minigun"
+ItemName="Rotacak"
+FemDeathMessage="%kuv %w rozstrilel %oa na maly kousky masa."
+FemKillMessage="%kuv %w rozstrilel %oa na maly kousky masa."
+
+[OldGESBioRifle]
+; EN: DeathMessage="%o drank a glass of %k's dripping green load."
+DeathMessage="%o byl rozleptan %kovym slizem."
+; EN: PickupMessage="You got the GES BioRifle"
+PickupMessage="Sebral jsi GES Slizomet"
+; EN: ItemName="GES BioRifle"
+ItemName="GES Slizomet"
+FemDeathMessage="%o byl rozleptan %kovym slizem."
+FemKillMessage="%o byl rozleptan %kovym slizem."
+
+[OldAmplifier]
+; EN: ExpireMessage="Energy Amplifier is out of power."
+ExpireMessage="Energeticky Nasobic vycerpan."
+; EN: PickupMessage="You got the Energy Amplifier"
+PickupMessage="Sebral jsi Energeticky Nasobic"
+; EN: ItemName="Energy Amplifier"
+ItemName="Energeticky Nasobic"
+
+[OldStinger]
+; EN: DeathMessage="%o was perforated by %k's %w."
+DeathMessage="%o byl proderaven %kovym %wem."
+; EN: PickupMessage="You picked up the Stinger"
+PickupMessage="Sebral jsi Stinger"
+; EN: ItemName="Stinger"
+ItemName="Stinger"
+FemDeathMessage="%o byl proderaven %kovym %wem."
+FemKillMessage="%o byl proderaven %kovym %wem."
+
+[OldShellBox]
+; EN: PickupMessage="You picked up 50 bullets."
+PickupMessage="Sebral jsi 50 naboju."
+; EN: ItemName="Bullet Box"
+ItemName="Naboju"
+
+[OldRifleAmmo]
+; EN: PickupMessage="You got 8 Rifle rounds"
+PickupMessage="Sebral jsi 8 Naboju do Ostrelovacky"
+; EN: ItemName="Rifle Rounds"
+ItemName="Naboju do Ostrelovacky"
+
+[OldWeaponPowerUp]
+; EN: PickupMessage="You got the Dispersion Pistol Powerup"
+PickupMessage="Sebral jsi Vylepseni Energeticke Pistole"
+; EN: ItemName="Dispersion Pistol Powerup"
+ItemName="Vylepseni Energeticke Pistole"
+
+[OldFlakBox]
+; EN: PickupMessage="You picked up 10 Flak shells"
+PickupMessage="Sebral jsi 10 Tristivych Granatu"
+; EN: ItemName="Flak Shells"
+ItemName="Tristivych Granatu"
+
+[OldRazorjack]
+; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
+DeathMessage="%k udelal z %oa hromadu krvavyho masa svym %wem."
+; EN: PickupMessage="You got the RazorJack"
+PickupMessage="Sebral jsi Rozparovac"
+; EN: ItemName="RazorJack"
+ItemName="Rozparovac"
+FemDeathMessage="%k udelal z %oa hromadu krvavyho masa svym %wem."
+FemKillMessage="%k udelal z %oa hromadu krvavyho masa svym %wem."
+
+[OldDefaultAmmo]
+; EN: PickupMessage="You picked up some ammo"
+PickupMessage="Sebral jste Munici"
+; EN: ItemName="Ammo"
+ItemName="Munice"
+
+[OldASMDAmmo]
+; EN: PickupMessage="You picked up an ASMD core"
+PickupMessage="Sebral jsi Napln do ASMD"
+; EN: ItemName="ASMD Core"
+ItemName="Napln do ASMD"
+
+[OldStingerAmmo]
+; EN: PickupMessage="You picked up 40 Tarydium Shards"
+PickupMessage="Sebral jsi 40 Tarydiovych Strepu"
+; EN: ItemName="Tarydium Shards"
+ItemName="Tarydiovych Strepu"
+
+[OldRazorAmmo]
+; EN: PickupMessage="You picked up some Razor blades"
+PickupMessage="Sebral jsi Ostri do Rozparovace"
+; EN: ItemName="Razor Blades"
+ItemName="Ostri do Rozparovace"
+
+[OldSludge]
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium sludge"
+PickupMessage="Sebral jsi 25 Kilo Tarydioveho Slizu"
+; EN: ItemName="Tarydium Sludge"
+ItemName="Tarydioveho Slizu"
+
+[OldRocketCan]
+; EN: PickupMessage="You picked up 12 Eightballs"
+PickupMessage="Sebral jsi 12 Raket"
+; EN: ItemName="Eightballs"
+ItemName="Raket"
+
+[OldClip]
+; EN: PickupMessage="You picked up a Clip"
+PickupMessage="Sebral jsi Zasobnik"
+; EN: ItemName="Clip"
+ItemName="Zasobnik"
+
+[OldRifleRound]
+; EN: PickupMessage="You got a Rifle round"
+PickupMessage="Sebral jsi Naboj do Ostrelovacky"
+; EN: ItemName="Rifle Round"
+ItemName="Naboj do Ostrelovacky"
+
+[OldFlakShellAmmo]
+; EN: PickupMessage="You got a Flak shell"
+PickupMessage="Sebral jsi Tristivy Granat"
+; EN: ItemName="Flak Shell"
+ItemName="Tristivy Granat"

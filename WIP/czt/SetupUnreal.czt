@@ -1,0 +1,67 @@
+﻿[Setup]
+LocalProduct="Unreal"
+DefaultFolder="C:\Program Files\Unreal"
+ReadMe="Help\ReadMe.htm"
+; EN: SetupWindowTitle="Unreal Setup"
+SetupWindowTitle="Unreal nastavení"
+; EN: AutoplayWindowTitle="Unreal Options"
+AutoplayWindowTitle="Unreal možnosti"
+ProductURL="http://www.unrealengine.com/"
+VersionURL="https://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
+Developer="Epic Games, Inc. - 227 od Oldunrealu"
+DeveloperURL="https://www.oldunreal.com/"
+Logo="Help\SetupLogo.bmp"
+
+[General]
+; EN: PlayLevelCommand="&Play this Unreal level"
+PlayLevelCommand="&Zahrajte si tuto Unreal úroveň"
+; EN: OpenLinkCommand="&Open this Unreal link"
+OpenLinkCommand="&Otevřít tento Unreal odkaz"
+; EN: InstallModuleCommand="&Install this Unreal module"
+InstallModuleCommand="&Nainstalujte tento modul Unreal"
+; EN: EditLevelCommand="&Edit this Unreal level"
+EditLevelCommand="&Upravit tuto Unreal úroveň"
+
+[ContentGroup]
+; EN: Caption="Game Content"
+Caption="Obsah hry"
+; EN: Description="Unreal game content. Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="Unreal herní obsah. Nainstalujte si toto pro nejlepší výkon. Pokud jej zrušíte, obsah hry se načte během přehrávání z disku CD, což sníží výkon, ale za použití méně místa na pevném disku."
+
+[GameGroup]
+; EN: Caption="Unreal Game"
+Caption="Unreal hra"
+; EN: Description="Unreal game. Installation is required."
+Description="Unreal hra. Instalace je nutná."
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 8 drivers for enhanced graphics, sound, and joystick support."
+Description="Volitelné ovladače Microsoft DirectX 8 pro vylepšenou podporu grafiky, zvuku a joysticku."
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="Unreal editor"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Editor Unreal světa pro vytváření vlastních 3D Unreal prostředí. Pro pokročilé uživatele; instalace je volitelná."
+
+[PlayShortcut]
+; EN: Caption="Play Unreal"
+Caption="Hrajte Unreal"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Safe Mode"
+Caption="Unreal bezpečný režim"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="Unreal editor"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="Dokumentace"
+
+[WebShortcut]
+; EN: Caption="Unreal Web Page"
+Caption="Unreal webová stránka"

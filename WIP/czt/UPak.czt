@@ -1,0 +1,262 @@
+﻿[Public]
+Object=(Name=Game.Game,Class=Class,MetaClass=UnrealShare.SinglePlayer,Description="Intro1;UPak.Return;Return to Na Pali")
+; EN: Object=(Name=UPak.UPakConsole,Class=Class,MetaClass=Engine.Console,Description="UGold (Deprecated)")
+Object=(Name=UPak.UPakConsole,Class=Class,MetaClass=Engine.Console,Description="UGold (Zastaralé)")
+Object=(Name=UPak.CrashSiteGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakSinglePlayer,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakTransitionInfo,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CloakMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakCoopGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.DuskFallsGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CloakGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.MarineMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.GravityMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.TestGameInfo,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.TerranWeaponMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.UPakIntro,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.CreditsGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UPak.GrenadeLauncher,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UPak.RocketLauncher,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UPak.CARifle,Class=Class,MetaClass=Engine.Weapon)
+Preferences=(Caption="Cloak Match",Parent="Game Types",LangCaption="Plášť Zápas",Class=UPak.CloakMatch,Immediate=True)
+Preferences=(Caption="Gravity Match",Parent="Game Types",LangCaption="Gravitační Zápas",Class=UPak.GravityMatch,Immediate=True)
+Preferences=(Caption="Marine Match",Parent="Game Types",LangCaption="Námořní Zápas",Class=UPak.MarineMatch,Immediate=True)
+Preferences=(Caption="Terran Weapon Match",Parent="Game Types",LangCaption="Zápas Terranských Zbraní",Class=UPak.TerranWeaponMatch,Immediate=True)
+
+[TransitionNullHUD]
+; EN: Statheader="Kill Statistics: "
+Statheader="Statistika zabitých: "
+; EN: CARStat="Combat Assault Rifle"
+CARStat="Útočná Puška"
+; EN: RLStat="UMS Rocket Launcher"
+RLStat="UMS Raketomet"
+; EN: GLStat="UMS Grenade Launcher"
+GLStat="UMS Granátomet"
+; EN: ASMDStat="ASMD"
+ASMDStat="ASMD"
+; EN: AutomagStat="Automag"
+AutomagStat="Poloautomaticka Pistole"
+; EN: DispersionStat="Dispersion Pistol"
+DispersionStat="Energeticka Pistole"
+; EN: EightballStat="Eightball"
+EightballStat="Sestihlavnovy Raketomet"
+; EN: FlakCannonStat="Flak Cannon"
+FlakCannonStat="Flak Kanon"
+; EN: GESBioRifleStat="GES BioRifle"
+GESBioRifleStat="GES Slizomet"
+; EN: MinigunStat="Minigun"
+MinigunStat="Rotacak"
+; EN: RazorjackStat="Razorjack"
+RazorjackStat="Rozparovac"
+; EN: RifleStat="Sniper Rifle"
+RifleStat="Ostrelovacka"
+; EN: StingerStat="Stinger"
+StingerStat="Stinger"
+; EN: TotalStat="Total Kills"
+TotalStat="Celkem Zabito"
+; EN: LogEntryMsg="LOG ENTRY:"
+LogEntryMsg="ZÁSNAM V LOGU:"
+
+[GrenadeLauncher]
+; EN: DeathMessage="%k's grenade made %o blew up."
+DeathMessage="Granát %k způsobil, že %o vybuchl."
+FemDeathMessage="Granát %k způsobil, že %o vybuchl."
+FemKillMessage="Granát %k způsobil, že %o vybuchl."
+; EN: PickupMessage="You got the UMS Grenade Launcher"
+PickupMessage="Sebral jsi UMS Granátomet"
+; EN: ItemName="UMS Grenade Launcher"
+ItemName="UMS Granátomet"
+
+[Cloak]
+; EN: ExpireMessage="disengaged."
+ExpireMessage="vypnuto."
+; EN: PickupMessage="You got the Cloaking Device"
+PickupMessage="Sebral jsi Maskovací Zařízení"
+; EN: ItemName="Cloaking Device"
+ItemName="Maskovací Zařízení"
+; EN: M_Activated=" engaged"
+M_Activated=" zapnuto"
+; EN: M_Deactivated=" disengaged"
+M_Deactivated=" vypnuto"
+
+[UPakHUD]
+; EN: MultWeapSlotMsg="Press the weapon select button to toggle weapons."
+MultWeapSlotMsg="Stiskni tlačítko pro volbu zbraně pro přepnutí na jinou zbraň."
+
+[UPakSinglePlayer]
+GameName="Unreal Mission Pack"
+
+[RocketLauncher]
+; EN: DeathMessage="%k's rocket turned %o's body into chunks."
+DeathMessage="Raketa %k proměnila tělo %o na kousky."
+FemDeathMessage="Raketa %k proměnila tělo %o na kousky."
+FemKillMessage="Raketa %k proměnila tělo %o na kousky."
+; EN: PickupMessage="You got the UMS Rocket Launcher"
+PickupMessage="Sebral jsi UMS Raketomet"
+; EN: ItemName="UMS Rocket Launcher"
+ItemName="UMS Raketomet"
+
+[UPakChooseGameMenu]
+MenuList[0]="Return to Na Pali"
+MenuList[1]="Unreal"
+
+[CloakMatch]
+; EN: GameName="Cloak Match"
+GameName="Plášť Zápas"
+
+[CARifle]
+; EN: DeathMessage="%k's %w turned %o into swiss cheese."
+DeathMessage="%kvo %w proměnilo %o ve švýcarský sýr."
+FemDeathMessage="%kvo %w proměnilo %o ve švýcarský sýr."
+FemKillMessage="%kvo %w proměnilo %o ve švýcarský sýr."
+; EN: PickupMessage="You got the Combat Assault Rifle"
+PickupMessage="Sebral jsi Útočnou Pušku"
+; EN: ItemName="Combat Assault Rifle"
+ItemName="Útočná Puška"
+
+[UPakScubaGear]
+; EN: RechargedMessage="ScubaGear fully recharged."
+RechargedMessage="ScubaGear plně nabitý."
+; EN: LowOxygenMessage="Oxygen supply critically low"
+LowOxygenMessage="Dodávka kyslíku je kriticky nízká"
+; EN: PickupMessage="You picked up the Marine SCUBA Gear"
+PickupMessage="Sebral jsi Vojenský Potápěčský Přístroj"
+; EN: ItemName="Marine SCUBA Gear"
+ItemName="Vojenský Potápěčský Přístroj"
+; EN: M_Deactivated="deactivated... Recharging."
+M_Deactivated=" vypnutý... doplňuje se."
+
+[MarineMatch]
+; EN: GameName="Marine Match"
+GameName="Námořní Zápas"
+
+[GravityMatch]
+; EN: GameName="Gravity Match"
+GameName="Gravitační Zápas"
+
+[UPakDebugger]
+; EN: ItemName="UPak Debugger"
+ItemName="Debugger UPak"
+
+[UPakMaleOne]
+; EN: MenuName="Male 1"
+MenuName="Muž 1"
+
+[UPakFemaleOne]
+; EN: MenuName="Female 1"
+MenuName="Žena 1"
+
+[GLAmmo]
+; EN: PickupMessage="You picked up 10 UMS Grenades"
+PickupMessage="Sebral jsi 10 UMS Granatů"
+; EN: ItemName="UMS Grenades"
+ItemName="UMS Granatů"
+
+[RLAmmo]
+; EN: PickupMessage="You got 10 UMS Rockets"
+PickupMessage="Sebral jsi 10 UMS Raket"
+; EN: ItemName="UMS Rockets"
+ItemName="UMS Raket"
+
+[CARifleClip]
+; EN: PickupMessage="You got a 50 bullet CAR clip"
+PickupMessage="Sebral jsi 50 Nabojů do Útočné Pušky"
+; EN: ItemName="CAR Clip"
+ItemName="Nabojů do Útočné Pušky"
+
+[UPakFemaleTwo]
+; EN: MenuName="Female 2"
+MenuName="Žena 2"
+
+[UPakMaleThree]
+; EN: MenuName="Male 3"
+MenuName="Muž 3"
+
+[UPakMaleTwo]
+; EN: MenuName="Male 2"
+MenuName="Muž 2"
+
+[TerranWeaponMatch]
+; EN: GameName="Terran Weapon Match"
+GameName="Zápas Terranských Zbraní"
+
+[CompTablet]
+; EN: PickupMessage="You got the Computer Tablet"
+PickupMessage="Sebral jsi Počítačový Tablet"
+; EN: ItemName="Computer Tablet"
+ItemName="Počítačový Tablet"
+
+[MarineArctic]
+; EN: MenuName="UMS Arctic Marine"
+MenuName="UMS Arktický Voják"
+
+[MarineDesert]
+; EN: MenuName="UMS Desert Marine"
+MenuName="UMS Pouštní Voják"
+
+[MarineJungle]
+; EN: MenuName="UMS Jungle Marine"
+MenuName="UMS Džungli Voják"
+
+[SpaceMarine]
+; EN: MenuName="UMS Space Marine"
+MenuName="UMS Vesmírný Voják"
+
+[TransitionBrute]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Brute"
+MenuName="Hrubý"
+
+[TransitionCow]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Nali Cow"
+MenuName="Kráva Nali"
+
+[NaliCopter]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="NaliCopter"
+MenuName="Nalicopter"
+
+[Predator]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Predator"
+MenuName="Dravec"
+
+[TransitionPredator]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Predator"
+MenuName="Dravec"
+
+[PackHunter]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Pack Hunter"
+MenuName="Lovec Skupiny"
+
+[Spinner]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Spinner"
+MenuName="Pavouk"
+
+[PredatorPathUser]
+; EN: NameArticle=" a "
+NameArticle=" "
+; EN: MenuName="Predator"
+MenuName="Dravec"
+
+[UPakConsole]
+; EN: ClassCaption="Unreal Gold (Deprecated)"
+ClassCaption="Unreal Gold (Zastaralé)"
+
+[MarineInterestPoint]
+PickupMessage=""
+M_Activated=""
+M_Selected=""
+M_Deactivated=""

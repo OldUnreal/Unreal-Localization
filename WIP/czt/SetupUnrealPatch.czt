@@ -1,0 +1,96 @@
+﻿[Setup]
+LocalProduct="Unreal Gold"
+DefaultFolder="C:\Program Files (x86)\UnrealGold"
+ReadMe="Help\227ReleaseNotes.pdf"
+; EN: SetupWindowTitle="Unreal Gold Setup"
+SetupWindowTitle="Unreal Gold nastavení"
+; EN: AutoplayWindowTitle="Unreal Gold Options"
+AutoplayWindowTitle="Unreal Gold možnosti"
+ProductURL="https://www.oldunreal.com/"
+VersionURL="https://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
+Developer="Epic Games, Inc. - 227 od Oldunrealu"
+DeveloperURL="https://www.oldunreal.com/"
+Logo="Help\Logo.bmp"
+
+[UnrealRequirement]
+LocalProduct="Unreal Gold"
+ProductURL="https://www.epicgames.com/"
+VersionURL="https://www.epicgames.com/"
+; EN: Developer="Epic Games, Inc. - 227 by Oldunreal"
+Developer="Epic Games, Inc. - 227 od Oldunrealu"
+DeveloperURL="https://www.oldunreal.com/"
+
+[LinuxGroup]
+; EN: Caption="Linux native files"
+Caption="Nativní soubory Linux"
+; EN: Description="Copies all files required to run and play Unreal natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealLinux.ini in the System folder. The level editor UnrealED is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.tar.bz2 in the Help folder which should contain all the necessary files."
+Description="Zkopíruje všechny soubory potřebné k nativnímu spuštění a přehrávání Unreal v Linuxu. Zatím není k dispozici nabídka Pokročilé možnosti, ale všechna nastavení jsou zaznamenána a lze je upravit v souboru UnrealLinux.ini ve složce Systém. Editor úrovní UnrealED zatím není v Linuxu k dispozici. Pokud se vám nedaří hru spustit, je v ReleaseNotes v adresáři nápovědy více informací a FAQ. Pokud váš systém neposkytuje všechny knihovny, je ve složce nápovědy balíček s názvem lin_convenience_libs.tar.bz2, který by měl obsahovat všechny potřebné soubory."
+
+[OldWeaponsGroup]
+; EN: Caption="Old Weapons"
+Caption="Staré zbraně"
+; EN: Description="Copies the Old Weapons mutator files. These files allow you to play with the weapons of Unreal version 200. Details can be found in the OldWeaponsReadme.txt in the help folder."
+Description="Zkopíruje soubory mutátoru Old Weapons. Tyto soubory vám umožňují hrát se zbraněmi Unreal verze 200. Podrobnosti najdete v souboru OldWeaponsReadme.txt ve složce nápovědy."
+
+[LinuxARMGroup]
+; EN: Caption="Linux ARM (64-bit) version files"
+Caption="Soubory 64-bitové verze Linux ARM"
+; EN: Description="64-bit Linux ARM version of the game (Cortex-A72 CPU and compatible). The files will be installed in the Unreal/SystemARM folder."
+Description="Soubory her pro 64-bitovou verzi Linux ARM (procesor Cortex-A72 a kompatibilní). Soubory budou nainstalovány do složky Unreal/SystemARM."
+
+[Linux64Group]
+; EN: Caption="Linux 64-bit version files"
+Caption="Soubory 64-bitové verze Linux"
+; EN: Description="64-bit Linux version of the game. The files will be installed in the Unreal/System64 folder. The 64-bit version will not use any ini settings from the 32-bit version."
+Description="Soubory her pro 64-bitovou verzi Linux. Soubory budou nainstalovány do složky Unreal/System64. 64bitová verze nebude používat žádná nastavení ini z 32bitové verze."
+
+[Windows64Group]
+; EN: Caption="Windows 64-bit version files"
+Caption="Soubory 64-bitové verze Windows"
+; EN: Description="64-bit Windows version of the game. The files will be installed in the Unreal/System64 folder. The 64-bit version will not use any ini settings from the 32-bit version."
+Description="Soubory her pro 64-bitovou verzi Windows. Soubory budou nainstalovány do složky Unreal/System64. 64bitová verze nebude používat žádná nastavení ini z 32bitové verze."
+
+[GameGroup]
+; EN: Caption="Unreal Game"
+Caption="Unreal Hra"
+; EN: Description="Unreal game. Installation is required."
+Description="Unreal hra. Je vyžadována instalace."
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="Unreal Editor"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Unreal level editor, aby bylo možné vytvářet vlastní Unreal 3D prostředí. Pro pokročilé uživatele je jeho instalace volitelná."
+
+[Editor64Group]
+; EN: Caption="Unreal Editor (64-bit)"
+Caption="Unreal Editor (64bitový)"
+; EN: Description="Unreal world editor (64-bit version), for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Unreal level editor (64bitová verze), aby bylo možné vytvářet vlastní Unreal 3D prostředí. Pro pokročilé uživatele je jeho instalace volitelná."
+
+[PlayShortcut]
+; EN: Caption="Play Unreal"
+Caption="Play Unreal"
+
+[Play64Shortcut]
+; EN: Caption="Play Unreal (64-bit)"
+Caption="Play Unreal (64-bit)"
+
+[FactoryResetGroup]
+; EN: Caption="Reset all settings"
+Caption="Resetovat všechna nastavení"
+; EN: Description="Recommended! Reset all ini settings back to default. Keeping your old ini settings may cause problems with this version; this setting is optional."
+Description="Doporučeno! Nastavte všechna svá osobní nastavení Unreal na výchozí hodnoty. Zachování starých hodnot může způsobit problémy s touto verzí; tato možnost je volitelná."
+
+[ConsoleGroup]
+; EN: Caption="Classic Menu"
+Titulek="Klasické Menu"
+; EN: Description="Use the classic UBrowser menu instead of UMenu. For the classic experience, this original menu is keyboard based and the standard console before UMenu was introduced in Unreal Gold/Unreal Tournament."
+Description="K získání klasického zážitku použijte klasickou nabídku UBrowser místo UMenu. Tato nabídka je založena na klávesnici a bývala výchozí nabídkou až do zavedení UMenu v Unreal Gold/Unreal Tournament."
+
+[RTNPGroup]
+; EN: Caption="Return to Na Pali Expansion Support"
+Caption="Podpora pro rozšíření Return to Na Pali"
+; EN: Description="This installs support for the Return to Na Pali expansion pack. This pack was sold separately and later included in Unreal Gold and Unreal Anthology versions. Do not install if you have the classic version only (226f)."
+Description="Tato možnost nainstaluje podporu pro rozšiřující balíček Return to Na Pali. Toto rozšíření se dříve prodávalo samostatně a poté bylo zahrnuto ve verzích Unreal Gold a Unreal Anthology. Neinstalujte, pokud máte nainstalovanou pouze základní hru (226f)."

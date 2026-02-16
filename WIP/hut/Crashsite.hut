@@ -1,0 +1,15 @@
+﻿[LevelInfo1]
+; EN: Title="Approaching UMS Prometheus"
+Title="Láthatáron az EKR Prométeusz"
+; EN: LevelEnterText="Approaching UMS Prometheus"
+LevelEnterText="Láthatáron az EKR Prométeusz"
+
+[LevelSummary]
+; EN: Title="Approaching UMS Prometheus"
+Title="Láthatáron az EKR Prométeusz"
+; EN: LevelEnterText="Approaching UMS Prometheus"
+LevelEnterText="Láthatáron az EKR Prométeusz"
+
+[TranslatorEvent0]
+; EN: Message="Another thunderbird has fallen from the sky, right before our eyes! I am very scared. Scared that the Sky Demons will come to our valley now."
+Message="Újabb villám madár zuhant le az égből a szemünk láttára! Nagyon félek. Félek hogy az égi démonok idejönnek."

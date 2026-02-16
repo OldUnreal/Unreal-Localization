@@ -1,0 +1,81 @@
+﻿[LevelInfo0]
+; EN: Title="Rrajigar Mine"
+Title="Rrajigar Bánya"
+; EN: LevelEnterText="Entering the Rrajigar Mine"
+LevelEnterText="Belépés a Rrajigari Bányába"
+
+[LevelSummary]
+; EN: Title="Rrajigar Mine"
+Title="Rrajigar Bánya"
+; EN: LevelEnterText="Entering the Rrajigar Mine"
+LevelEnterText="Belépés a Rrajigari Bányába"
+
+[TranslatorEvent11]
+; EN: Message="WARNING: Intruder detected in Sections C-6 and D-8. All personnel are responsible for patrolling their local area."
+Message="FIGYELEM: Behatoló észlelve a C-6-os és D-8-as Körzetekben. A teljes személyzet felelös a saját területe örzéséért."
+; EN: Hint="Shoot the red button nearby to raise the narrow bridge across the lava."
+Hint="Löjj a piros gomb közelébe, hogy felemelkedjen a láván átvezetö keskeny híd."
+
+[TranslatorEvent1]
+; EN: Message="WARNING: Access bridges in lower half of mine are unsafe. Proceed with caution."
+Message="FIGYELEM: A bánya alsó felében lévö bekötö hidak életveszélyesek! Áthaladás csak óvatosan!"
+
+[TranslatorEvent0]
+; EN: Message="ALERT: Nali slave resistance detected in Sector 3A. Lethal force authorized to suppress rebellious activity."
+Message="RIADÓ: Nali rabszolga ellenállás a 3A Szektorban. A lázadás elfolytására éles löszer használata engedélyezett."
+
+[TranslatorEvent2]
+; EN: Message="Harobed Village is on the other side of these mountains. I will wait until the two suns have set and proceed through Rrajigar mine. It is the only way."
+Message="Harobed Falva ezeknek a hegyeknek a másik oldalán van. Várni fogok két naplementét, és keresztülmegyek a Rrajigar bányán. Ez az egyetlen út."
+
+[TranslatorEvent10]
+; EN: Message="WARNING: Force Field power source two status is inactive. Security Condition Two reached."
+Message="FIGYELEM: Kettes Erötér energiaforrása inaktív. Kettes Bitonsági Szint érvényben."
+
+[TranslatorEvent6]
+; EN: Message="Force field intact. All systems normal."
+Message="Az erötér ép. Minden rendszer rendben."
+; EN: Hint="The force field must be deactivated. Find the control room."
+Hint="Ki kell kapcsolni az eröteret. Találd meg az vezérlötermet."
+
+[TranslatorEvent5]
+; EN: Message="WARNING! Force field de-activated. Intruder detected in Section C-6. Eliminate any unauthorized presence."
+Message="FIGYELEM! Az Erötér kikapcsolva. Behatoló észlelve A C-6-os Körzetben. Megsemmisíteni bármilyen jogosulatlan jelenlevöt."
+; EN: Hint="Shoot all red barrels."
+Hint="Löjj bele minden piros hordóba."
+
+[TranslatorEvent9]
+; EN: Message="WARNING: Force Field power source one status is inactive. Security Condition Two reached."
+Message="FIGYELEM: Egyes Erötér energiaforrása inaktív. Kettes Bitonsági Szint érvényben."
+
+[TranslatorEvent19]
+; EN: Message="NOTE: Area must be clear for transport lift to perform properly."
+Message="MEGJEGYZÉS: A területet tisztán kell tartani, hogy a szállító lift helyesen müködjön."
+
+[TranslatorEvent15]
+; EN: Message="You are SO dead."
+Message="ANNYIRA halott vagy."
+
+[TranslatorEvent14]
+; EN: Message="What the hell are you doing up here?"
+Message="Mi a poklot keresel itt?"
+
+[TranslatorEvent20]
+; EN: Message="Force Field Control Area"
+Message="Erötér Vezérlö Terület"
+
+[TranslatorEvent8]
+; EN: Message="Force Field power source one status is active."
+Message="Egyes Erötér energiaforrása aktív."
+; EN: Hint="Press the red buttons on the wall by bumping into them."
+Hint="Nyomd meg a piros gombokat a falon úgy, hogy nekik mész."
+
+[TranslatorEvent7]
+; EN: Message="Force Field power source two status is active."
+Message="Kettes Erötér energiaforrása aktív."
+; EN: Hint="Press the red buttons on the wall by bumping into them."
+Hint="Nyomd meg a piros gombokat a falon úgy, hogy nekik mész."
+
+[StingerAmmo17]
+; EN: PickupMessage="You picked up 80 Tarydium Shards"
+PickupMessage="Felvettél 80 Tarydium Szilánkot"
