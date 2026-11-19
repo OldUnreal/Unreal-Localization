@@ -1,10 +1,10 @@
 ﻿[LevelInfo3]
 ; EN: Title="The Darkening"
-Title=Zaćmienie"
+Title="Zaćmienie"
 
 [LevelSummary]
 ; EN: Title="The Darkening"
-Title=Zaćmienie"
+Title="Zaćmienie"
 
 [TranslatorEvent10]
 ; EN: Message="The Source Antechamber, ACCESS DENIED."
